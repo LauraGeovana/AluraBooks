@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="assets/style.css">
 body {
     background-color: bisque;
     font-family: Bai Jamjuree;
@@ -6,14 +5,15 @@ body {
 
 #container {
     display:flex ;
-    .cartao {
-        margin: 1rem 1rem;
-        background-color: aqua;
-        height: 20rem;
-        flex-grow: 1;
-        flex-basis: calc(33% -6rem);
-    }
+}
 
+.cartao {
+  margin: 1rem 1rem;
+  background-color: aqua;
+  height: 20rem;
+  flex-grow: 1;
+        flex-basis: calc(33% -6rem);
+    
 }
 
 footer {
@@ -24,6 +24,7 @@ footer {
     width:100%;
     height:2rem;
 }
+
 footer p{
     text-align: center;
     font-size: 0.6rem;
